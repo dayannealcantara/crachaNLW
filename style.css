@@ -6,7 +6,7 @@ body {
   --black: hsl(240, 6%, 13%);
   --gray: hsl(240, 9%, 89%);
   height: 100%;
-  font-size: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -14,9 +14,9 @@ body {
   display: grid;
   place-items: center;
 }
+
 main {
   background: url(imagens/Mobile.svg);
-  position: relative;
   width: 375px;
   height: 812px;
   color: var(--gray);
@@ -31,7 +31,7 @@ main {
 
 .avatar {
   width: 10rem;
-  height: 11.5rem 0;
+  margin: 11.5rem auto 0;
   position: relative;
 }
 
@@ -49,16 +49,29 @@ main {
   height: 11.5rem;
 }
 
+h1 {
+  font-size: 1.5rem;
+  margin-top: 1.5em;
+}
+
 a {
-  color: #000000;
+  color: var(--gray);
   text-decoration: none;
+  margin-top: 0.25rem;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+p {
+  margin-top: 2rem;
 }
 
 ul {
   display: flex;
-  padding: 20px;
-}
-
-ul li {
-  text-decoration: none;
+  padding: 0px;
+  margin-top: 4rem;
+  list-style: none;
+  gap: 0.5rem;
+  justify-content: center;
 }
