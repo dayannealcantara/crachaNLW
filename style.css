@@ -16,7 +16,7 @@ body {
 }
 
 main {
-  background: url(imagens/Mobile.svg);
+  background: url(imagens/fundo.svg);
   width: 375px;
   height: 812px;
   color: var(--gray);
